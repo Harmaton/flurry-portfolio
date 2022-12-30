@@ -11,7 +11,7 @@ const Contact = () => {
   const form = useRef()
 
   useEffect(() => {
-    return setTimeout(() => {
+     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
@@ -85,20 +85,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Harmaton Njagi,
           <br />
           Serbia,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+         Nairobi 19, 22000 <br />
+          Kajiado Rongai <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>harmyofficial@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Njagi lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
