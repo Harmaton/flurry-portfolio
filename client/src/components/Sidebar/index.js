@@ -5,7 +5,8 @@ import './index2.scss';
 import Logo from '../../assets/images/logo.jpg';
 import Image from 'react-bootstrap/esm/Image';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faComment, faHome, faUser, faAddressBook, faPortrait, faBars, faClose} from '@fortawesome/free-solid-svg-icons';
+import {  faHome, faUser, faPortrait, faBars, faClose, faContactCard, faCommentSlash, faStoreAlt} from '@fortawesome/free-solid-svg-icons';
+import { faGithubSquare, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Sidebar() {
 
@@ -43,7 +44,7 @@ export default function Sidebar() {
              className = "contact-link"
               to="/contact" 
                onClick={() => setShowNav(false)} >
-             <FontAwesomeIcon icon= {faComment} color = "#4d4d4e" />  
+             <FontAwesomeIcon icon= {faCommentSlash} color = "#4d4d4e" />  
             </NavLink>
 
 
@@ -52,7 +53,7 @@ export default function Sidebar() {
             className = "portfolio-link"
              to="/portfolio" 
               onClick={() => setShowNav(false)} >
-             <FontAwesomeIcon icon= {faPortrait} color = "#4d4d4e" />  
+             <FontAwesomeIcon icon= {faStoreAlt} color = "#4d4d4e" />  
             </NavLink>
 
             <FontAwesomeIcon 
@@ -70,7 +71,7 @@ export default function Sidebar() {
              href=''
              className="anchor-icon"
              >
-               <FontAwesomeIcon icon={faAddressBook} color = "#4d4d4e" />
+               <FontAwesomeIcon icon={faTwitter} color = "#4d4d4e" />
             </a>
         </li>
         <li>
@@ -79,7 +80,7 @@ export default function Sidebar() {
              href=''
              className="anchor-icon"
              >
-               <FontAwesomeIcon icon={faAddressBook} color = "#4d4d4e" />
+               <FontAwesomeIcon icon={faGithubSquare} color = "#4d4d4e" />
             </a>
         </li>
         <li>
@@ -88,7 +89,7 @@ export default function Sidebar() {
              href=''
              className="anchor-icon"
              >
-               <FontAwesomeIcon icon={faAddressBook} color = "#4d4d4e" />
+               <FontAwesomeIcon icon={faLinkedinIn} color = "#4d4d4e" />
             </a>
         </li>
         <li>
@@ -97,7 +98,7 @@ export default function Sidebar() {
              href=''
              className="anchor-icon"
              >
-               <FontAwesomeIcon icon={faAddressBook} color = "#4d4d4e" />
+               <FontAwesomeIcon icon={faMedium} color = "#4d4d4e" />
             </a>
         </li>
         

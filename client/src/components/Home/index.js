@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/h.png'
+import LogoTitle from '../../assets/images/hsmall.png'
 import Logo from './Logo'
 import './index.scss'
 
@@ -11,6 +11,8 @@ const Home = () => {
 
   const nameArray = ['a', 'r', 'm', 'a', 't', 'o', 'n']
   const jobArray = [
+    'a',
+    '-',
     's',
     'o',
     'f',
@@ -63,7 +65,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>FullStack Developer / Mobile Developer (Kotlin) /JavaScript Expert / Java Expert / AI expert</h2>
+          <h2>FullStack Developer / Native Mobile Developer (Kotlin) /JavaScript Expert / Java Expert / AI expert (Python)</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
