@@ -20,11 +20,11 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm('Gmail', 'service_7tyr9hd', form.current, 'hwoO9S5htCw_ajoyv')
       .then(
         () => {
           alert('Message successfully sent!')
-          window.location.reload(false)
+          window.location.reload(true)
         },
         () => {
           alert('Failed to send the message, please try again')
@@ -87,20 +87,12 @@ const Contact = () => {
         <div className="info-map">
           Harmaton Njagi,
           <br />
-          Serbia,
+          Nairobi ,
           <br />
-         Nairobi 19, 22000 <br />
-          Kajiado Rongai <br />
+          Kenya. <br />
+          Kajiado, Rongai <br />
           <br />
-          <span>harmyofficial@gmail.com</span>
-        </div>
-        <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Njagi lives here, come over for a cup of coffee :)</Popup>
-            </Marker>
-          </MapContainer>
+          <span>njagiiharmaton@gmail.com</span>
         </div>
       </div>
       <Loader type="pacman" />

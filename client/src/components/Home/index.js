@@ -36,7 +36,7 @@ const Home = () => {
   useEffect(() => {
      setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
+    }, 3000)
   }, [])
 
   return (
@@ -65,9 +65,9 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>FullStack Developer / Native Mobile Developer (Kotlin) /JavaScript Expert / Java Expert / AI expert (Python)</h2>
+          <h2>Native Android Developer (Kotlin/Java)/ FullStack Developer(MERN)/JavaScript Expert / Java Expert / AI expert (Python)</h2>
           <Link to="/contact" className="flat-button">
-            CONTACT ME
+            HIRE ME
           </Link>
         </div>
         <Logo />

@@ -139,7 +139,14 @@
       height: auto;
       min-height: auto;
   
-       ul, nav {
+       ul{
+        display: flex;
+        margin: 5%;
+       } 
+       li{
+        margin: 5%;
+       }
+       nav {
         display: none;
        }
   
@@ -150,11 +157,11 @@
         background: #181818;
         height: auto;
         margin: 0;
-        z-index: 4;
-        position: fixed;
+        z-index: 2;
+        position: absolute;
   
         &.mobile-show {
-          display: block;
+          display: inline-block;
           
         }
   
@@ -162,7 +169,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          margin: 5%;
+          margin: 2%;
         }
   
         a::after {
@@ -173,15 +180,15 @@
         }
   
         a svg {
-          opacity: 1;
+          opacity: 2;
         }
        }
   
        .hamburger-icon,
        .close-icon {
           position: absolute;
-          top: 15px;
-          right: 15px;
+          top: 20px;
+          right: 20px;
           display: block;
        }
     }

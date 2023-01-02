@@ -23,7 +23,7 @@ export default function NavbarSection() {
             <Nav.Link href="#features">About</Nav.Link>
             <Nav.Link href="#pricing">Projects</Nav.Link>
             <Nav.Link href="#pricing">Certificates</Nav.Link>
-            <Nav.Link href="#pricing">Hire Me</Nav.Link>
+            <Nav.Link href="#pricing">Hire Me</Nav.Link> 
             <Nav.Link href="#pricing">Mpesa me a coffee</Nav.Link>
           </Nav>
         </Navbar.Collapse>

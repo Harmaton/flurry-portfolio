@@ -68,7 +68,7 @@ export default function Sidebar() {
         <li>
             <a target="_blank"
              rel='nofollow'
-             href=''
+             href='https://twitter.com/njagiiiiii'
              className="anchor-icon"
              >
                <FontAwesomeIcon icon={faTwitter} color = "#4d4d4e" />
@@ -77,7 +77,7 @@ export default function Sidebar() {
         <li>
             <a target="_blank"
              rel='noreferrer'
-             href=''
+             href='https://github.com/Harmaton'
              className="anchor-icon"
              >
                <FontAwesomeIcon icon={faGithubSquare} color = "#4d4d4e" />
@@ -86,7 +86,7 @@ export default function Sidebar() {
         <li>
             <a target="_blank"
              rel='noreferrer'
-             href=''
+             href='https://www.linkedin.com/in/harmaton-njagi-1b2272189/'
              className="anchor-icon"
              >
                <FontAwesomeIcon icon={faLinkedinIn} color = "#4d4d4e" />
@@ -95,7 +95,7 @@ export default function Sidebar() {
         <li>
             <a target="_blank"
              rel='noreferrer'
-             href=''
+             href='https://medium.com/@njagiiharmaton'
              className="anchor-icon"
              >
                <FontAwesomeIcon icon={faMedium} color = "#4d4d4e" />

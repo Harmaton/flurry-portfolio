@@ -1,14 +1,8 @@
-.about-page {
-    .text-zone{
-        width: auto;
-        color: #efd81d;
-    }
-
-    .stage-cube-cont {
+ .stage-cube-cont {
     width: 50%;
     height: 80%;
     top: 0;
-    padding-top: 18%;
+    padding-bottom: 10%;
     margin-left: 0;
     position: absolute;
     right: 0;
@@ -86,4 +80,3 @@
       transform: rotateX(90deg);
     }
   }
-}
