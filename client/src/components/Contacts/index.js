@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import { useRef } from 'react'
+
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 
 const Contact = () => {
@@ -17,20 +17,18 @@ const Contact = () => {
   }, [])
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
+    
 
-    emailjs
-      .sendForm('Gmail', 'service_7tyr9hd', form.current, 'hwoO9S5htCw_ajoyv')
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(true)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
-  }
+    emailjs.sendForm('service_d071apc', 'template_9tnnt1k', form.current, 'hwoO9S5htCw_ajoyv')
+      .then((result) => {
+          console.log(result.text);
+
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
 
   return (
     <>
@@ -54,13 +52,13 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input placeholder="Name" type="text" name="user_name" required />
                 </li>
                 <li className="half">
                   <input
                     placeholder="Email"
                     type="email"
-                    name="email"
+                    name="user_email"
                     required
                   />
                 </li>
@@ -91,13 +89,16 @@ const Contact = () => {
           <br />
           Nairobi ,
           <br />
+          <br />
+          0748667466
+          <br />
           Kenya. <br />
           Kajiado, Rongai <br />
           <br />
           <span>njagiiharmaton@gmail.com</span>
         </div>
       </div>
-      <Loader type="pacman" />
+     
     </>
   )
 }
