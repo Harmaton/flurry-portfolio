@@ -70,7 +70,9 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2> Native Android Developer (Kotlin/Java), Back-end Developer (Spring framework) / FullStack Developer(MERN)/JavaScript expert / Java Expert / AI expert (Python)</h2>
+          <h2> Native Android Developer (Kotlin/Java), Back-end Developer (Spring framework) 
+            / FullStack Developer(MERN)
+            /JavaScript expert / Java Expert / AI expert (Python)</h2>
           <Link to="/contact" className="flat-button">
             CONTACT/HIRE ME
           </Link>

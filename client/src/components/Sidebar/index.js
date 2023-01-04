@@ -51,7 +51,7 @@ export default function Sidebar() {
             <NavLink 
             activeClassName = "active"
             className = "portfolio-link"
-             to="/Portfolio" 
+             to="/portfolio" 
               onClick={() => setShowNav(false)} >
              <FontAwesomeIcon icon= {faStoreAlt} color = "#4d4d4e" />  
             </NavLink>
@@ -110,6 +110,7 @@ export default function Sidebar() {
           color="#ffd700"
           size="3x"
           className='hamburger-icon' />
+
        </div>
   )
 }

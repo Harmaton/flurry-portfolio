@@ -49,7 +49,7 @@ const About = () => {
              I am confident in my ability to drive results for clients. 
           </p>
           <p className='p'>
-            <h2>A few thingsI love doing </h2>
+            <h2>A few things I love doing </h2>
             <ul>
                 <li>Innovating what I beleive in</li>
                 <li>Designing Great user Interfaces</li>
