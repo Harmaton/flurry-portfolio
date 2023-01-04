@@ -11,9 +11,14 @@ const Home = () => {
 
   const nameArray = ['a', 'r', 'm', 'a', 't', 'o', 'n']
   const jobArray = [
-    'a',
-    '-',
-    's',
+    ',',
+    '',
+    '',
+    't',,
+    'h',
+    'e',
+    '',
+    'S',
     'o',
     'f',
     't',
@@ -22,7 +27,7 @@ const Home = () => {
     'r',
     'e',
     ' ',
-    'e',
+    'E',
     'n',
     'g',
     'i',
@@ -51,7 +56,7 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m</span>
             <img
               src={LogoTitle}
-              alt="JavaScript Developer Name,Developer Name"
+              alt=" Harmaton"
             />
             <AnimatedLetters
               letterClass={letterClass}
@@ -65,9 +70,9 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Native Android Developer (Kotlin/Java)/ FullStack Developer(MERN)/JavaScript Expert / Java Expert / AI expert (Python)</h2>
+          <h2> Native Android Developer (Kotlin/Java), Back-end Developer (Spring framework) / FullStack Developer(MERN)/JavaScript expert / Java Expert / AI expert (Python)</h2>
           <Link to="/contact" className="flat-button">
-            HIRE ME
+            CONTACT/HIRE ME
           </Link>
         </div>
         <Logo />

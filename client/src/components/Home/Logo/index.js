@@ -42,7 +42,7 @@ const Logo = () => {
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoS}
-        alt="JavaScript,  Developer"
+        alt="  Developer"
       />
 
       <svg
@@ -54,7 +54,7 @@ const Logo = () => {
       >
         <g
           className="svg-container"
-          transform="translate(0 200) scale(0 - 0)"
+          transform="translate(0 200) scale(1 - 0)"
           fill="none"
         >
           <path

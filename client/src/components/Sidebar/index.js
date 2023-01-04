@@ -5,8 +5,8 @@ import './index2.scss';
 import Logo from '../../assets/images/logo.jpg';
 import Image from 'react-bootstrap/esm/Image';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {  faHome, faUser, faPortrait, faBars, faClose, faContactCard, faCommentSlash, faStoreAlt} from '@fortawesome/free-solid-svg-icons';
-import { faGithubSquare, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {  faHome, faUser, faPortrait, faBars, faClose, faContactCard, faCommentSlash, faStoreAlt, faTasksAlt, faPerson, faStarHalf, faH} from '@fortawesome/free-solid-svg-icons';
+import { faDev, faGithubSquare, faKickstarter, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Sidebar() {
 
@@ -36,7 +36,7 @@ export default function Sidebar() {
              className = "about-link" 
              to="/about"
                onClick={() => setShowNav(false)} >
-             <FontAwesomeIcon icon= {faUser} color = "#4d4d4e" />  
+             <FontAwesomeIcon icon= {faH} color = "#4d4d4e" />  
             </NavLink>
 
             <NavLink 
@@ -44,14 +44,14 @@ export default function Sidebar() {
              className = "contact-link"
               to="/contact" 
                onClick={() => setShowNav(false)} >
-             <FontAwesomeIcon icon= {faCommentSlash} color = "#4d4d4e" />  
+             <FontAwesomeIcon icon= {faTasksAlt} color = "#4d4d4e" />  
             </NavLink>
 
 
             <NavLink 
             activeClassName = "active"
             className = "portfolio-link"
-             to="/portfolio" 
+             to="/Portfolio" 
               onClick={() => setShowNav(false)} >
              <FontAwesomeIcon icon= {faStoreAlt} color = "#4d4d4e" />  
             </NavLink>

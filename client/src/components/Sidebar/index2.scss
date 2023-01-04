@@ -1,21 +1,25 @@
 .nav-bar {
-    background: #181818;
-    width: 60px;
+    background: #222121;
+    width: 84px;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
     min-height: 500px;
-  
+    border-radius: 20%;
+    
     .logo {
       display: block;
       padding: 8px 0;
+      
   
       img {
         display: block;
+        padding: 5px;
         margin: 8px auto;
-        width: 34px;
+        width: 84px;
         height: auto;
+       
       }
     }
   
@@ -91,6 +95,7 @@
           content: 'PORTFOLIO';
         }
       }
+      
   
       a.active {
         svg {
@@ -104,11 +109,11 @@
       bottom: 20px;
       width: 100%;
       display: block;
-      padding: 0;
+      padding: 25px;
       list-style: none;
       text-align: center;
       margin: 0;
-  
+      
       li {
         a {
           padding: 7px 0;
@@ -119,13 +124,12 @@
         }
   
         &::hover {
-          .anchor-icon {
             color: #1dd01f;
           }
+        
         }
       }
     }
-  }
   
   .hamburger-icon, .close-icon {
     display: none;
@@ -159,28 +163,30 @@
         margin: 0;
         z-index: 2;
         position: absolute;
+        border-radius: 30%;
   
         &.mobile-show {
-          display: inline-block;
-          
+          display: flex;
+          padding: 25px;  
         }
   
         a {
           display: flex;
+          margin: 20px;
           justify-content: center;
           align-items: center;
-          margin: 2%;
+          margin: 0;
         }
   
         a::after {
           opacity: 1;
           position: initial;
           width: auto;
-          margin-left: 10PX;
+          margin-left: 5PX;
         }
   
         a svg {
-          opacity: 2;
+          opacity: 1;
         }
        }
   
