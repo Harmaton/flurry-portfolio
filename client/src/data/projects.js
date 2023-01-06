@@ -23,5 +23,13 @@ const projects = [
         "stack": "Kotlin Spring boot",
         "img": "",
         "desc": "a back end application that deals with transactions and can be implemented in a fintech environment"
+    },
+    {
+        "name": "FullStack E-commerce",
+        "stack": "React, Node js, Mongodb",
+        "img": "",
+        "desc": "an e-commerce site devloped for a client "
     }
 ];
+
+export default projects;
