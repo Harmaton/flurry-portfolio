@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/js/bootstrap';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
