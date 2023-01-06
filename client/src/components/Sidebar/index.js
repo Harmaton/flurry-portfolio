@@ -5,8 +5,8 @@ import './index2.scss';
 import Logo from '../../assets/images/logo.jpg';
 import Image from 'react-bootstrap/esm/Image';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {  faHome, faUser, faPortrait, faBars, faClose, faContactCard, faCommentSlash, faStoreAlt, faTasksAlt, faPerson, faStarHalf, faH} from '@fortawesome/free-solid-svg-icons';
-import { faDev, faGithubSquare, faKickstarter, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {  faHome, faBars, faClose, faStoreAlt, faTasksAlt, faH} from '@fortawesome/free-solid-svg-icons';
+import {  faGithubSquare,  faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Sidebar() {
 
