@@ -66,8 +66,7 @@ export default function Sidebar() {
 
        <ul>
         <li>
-            <a target="_blank"
-             rel='nofollow'
+            <a 
              href='https://twitter.com/njagiiiiii'
              className="anchor-icon"
              >
@@ -75,8 +74,7 @@ export default function Sidebar() {
             </a>
         </li>
         <li>
-            <a target="_blank"
-             rel='noreferrer'
+            <a 
              href='https://github.com/Harmaton'
              className="anchor-icon"
              >
@@ -84,8 +82,7 @@ export default function Sidebar() {
             </a>
         </li>
         <li>
-            <a target="_blank"
-             rel='noreferrer'
+            <a 
              href='https://www.linkedin.com/in/harmaton-njagi-1b2272189/'
              className="anchor-icon"
              >
@@ -93,8 +90,7 @@ export default function Sidebar() {
             </a>
         </li>
         <li>
-            <a target="_blank"
-             rel='noreferrer'
+            <a 
              href='https://medium.com/@njagiiharmaton'
              className="anchor-icon"
              >
