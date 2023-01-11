@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
-    "gsap-trial": "^3.11.4",
+   "gsap-trial": "^3.11.4",
     "jquery": "^3.6.3",
     "leaflet": "^1.9.3",
     "popper.js": "^1.16.1",

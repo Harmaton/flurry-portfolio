@@ -46,6 +46,9 @@
         height: auto;
         animation: rotateIn 1s linear both;
         animation-delay: 1.0s;
+        .solid-logo {
+          width: 10px;
+        }
       }
     }
   
@@ -87,7 +90,7 @@
     .tags,
     .home-page h1:before,
     .home-page h1:after {
-      display: none;
+      display: flex;
     }
   
     .home-page .text-zone {

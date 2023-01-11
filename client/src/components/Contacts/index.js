@@ -40,11 +40,12 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
+            I am interested in freelance opportunities and/or full-time roles - especially on ambitious
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either.
+              
           </p>
-        
+         <h5> <b>Phone - +254 748667466</b></h5>
 
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -82,21 +83,24 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
+       
+      </div>
+      <div className="info-map">
           Harmaton Njagi,
           <br />
           Nairobi ,
           <br />
           <br />
+          <hr />
           0748667466
+          <br />
+          <hr />
           <br />
           Kenya. <br />
           Kajiado, Rongai <br />
           <br />
           <span>njagiiharmaton@gmail.com</span>
         </div>
-      </div>
-     
     </>
   )
 }

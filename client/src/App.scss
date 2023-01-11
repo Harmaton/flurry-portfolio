@@ -1,7 +1,8 @@
 $primary-color: #1dd01f;
 
 @import 'animate.css';
-
+.App {
+  
 input,
 textarea {
   font-family: 'Helvetica Neue', sans-serif;
@@ -24,4 +25,5 @@ textarea {
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 
+}
 }
